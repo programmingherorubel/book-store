@@ -1,0 +1,215 @@
+[
+    { "id":1,
+      "name": "indian and the bangladesh liberation war",
+      "author": "shivshankar menom",
+      "img": "https://i.ibb.co/DLNjWKw/indian-and-the-bangladesh-liberation-war.jpg",
+      "review": "5",
+      "category": "War ",
+      "price":289
+    },
+    {
+      "id":2,
+      "name": "1971",
+      "author": "anam zakaria",
+      "img": "https://i.ibb.co/8gTWWGr/1971.jpg",
+      "review": "5",
+      "category": "War",
+      "price":249
+    },
+    {
+      "id":3,
+      "name": "indias war",
+      "author": "anam zakaria",
+      "img": "https://i.ibb.co/3TDNYQj/indias-war.jpg",
+      "review": "4",
+      "category": "War",
+      "price":290
+    },
+    {
+      "id":4,
+      "name": "After lives Abdulrazak gurnah",
+      "author": "srikanto vottocharj",
+      "img": "https://i.ibb.co/QPgGt9f/after-lives.webp",
+      "review": "5",
+      "category": "Classic",
+      "price":300
+    },
+    { "id":5,
+      "name": "chetan Bhagat ",
+      "author": "old mans",
+      "img": "https://i.ibb.co/T0xrdGM/chetan-Bhagat.jpg",
+      "review": "3",
+      "category": "Classic",
+      "price":500
+    },
+    {
+      "id":6,
+      "name": "dan scottow damaged",
+      "author": "pitter henry",
+      "img": "https://i.ibb.co/BG2MQLR/dan-scottow-damaged.jpg",
+      "review": "2",
+      "category": "Classic",
+      "price":600
+    },
+    {
+      "id":7,
+      "name": "Hopless",
+      "author": "pitter henry",
+      "img": "https://i.ibb.co/BPR8XZk/hopeless.jpg",
+      "review": "5",
+      "category": "Crime",
+      "price":400
+    },
+    {
+      "id":8,
+      "name": "India pakistan war 1965",
+      "author": "loukesh ray",
+      "img": "https://i.ibb.co/m46f216/india-pakistan-war-1965.jpg",
+      "review": "4",
+      "category": "War",
+      "price":300
+    },
+    {
+      "id":9,
+      "name": "Little Girls",
+      "author": "loukesh ray",
+      "img": "https://i.ibb.co/9Yftc4L/little-girls.jpg",
+      "review": "2",
+      "category": "Horror",
+      "price":600
+    },
+    {
+      "id":10,
+      "name": "mans search for meaning",
+      "author": "viktor e frankl",
+      "img": "https://i.ibb.co/kXx0PFS/mans-search-for-meaning.webp",
+      "review": "3",
+      "category": "Classic",
+      "price":400
+    },
+    {
+      "id":11,
+      "name": "revenge of the ghost",
+      "author": "sunil kapadia",
+      "img": "https://i.ibb.co/rFXxshL/one-Arranged-marrage.jpg",
+      "review": "1",
+      "category": "Classic",
+      "price":200
+    },
+    {
+      "id":12,
+      "name": "One Arranged Marrage",
+      "author": "sunil kapadia",
+      "img": "https://i.ibb.co/njPTFYY/revenge-of-the-ghost.jpg",
+      "review": "1",
+      "category": "Horror",
+      "price":200
+    },
+    {
+      "id":13,
+      "name": "That night",
+      "author": "nidhi upadhyay",
+      "img": "https://i.ibb.co/gSCKdM8/That-night.jpg",
+      "review": "4",
+      "category": "Horror",
+      "price":900
+    },
+    {"id":14,
+      "name": "stephen king",
+      "author": "the shinning",
+      "img": "https://i.ibb.co/Hp9vmM8/stephen-king.jpg",
+      "review": "5",
+      "category": "Thriller",
+      "price":800
+    },
+    {
+      "id":15,
+      "name": "The book Shelf",
+      "author": "Unnone",
+      "img": "https://i.ibb.co/4gRLtHv/the-book-shelf.png",
+      "review": "5",
+      "category": "Thriller",
+      "price":200
+    },
+    {
+      "id":16,
+      "name": "The colonel who would not repent",
+      "author": "salil tripathi",
+      "img": "https://i.ibb.co/zxQJf4T/the-colonel-who-would-not-repent.jpg",
+      "review": "3",
+      "category": "War",
+      "price":700
+    },
+    {
+      "id":17,
+      "name": "The Crime Book",
+      "author": "Unnone",
+      "img": "https://i.ibb.co/bJsPmkG/the-crime-book.webp",
+      "review": "5",
+      "category": "Crime",
+      "price":300
+    },
+    {
+      "id":18,
+      "name": "The Crime Book",
+      "author": "Unnone",
+      "img": "https://i.ibb.co/bJsPmkG/the-crime-book.webp",
+      "review": "5",
+      "category": "Crime",
+      "price":280
+    },
+    {
+      "id":19,
+      "name": "The good son",
+      "author": "jeong jeong",
+      "img": "https://i.ibb.co/hyQjqqW/the-good-son.jpg",
+      "review": "2",
+      "category": "Thriller",
+      "price":250
+    },
+    {
+      "id":20,
+      "name": "The good son",
+      "author": "jeong jeong",
+      "img": "https://i.ibb.co/hyQjqqW/the-good-son.jpg",
+      "review": "2",
+      "category": "Thriller",
+      "price":280
+    },
+    {
+      "id":21,
+      "name": "The history of Bangal",
+      "author": "r.c.majumder",
+      "img": "https://i.ibb.co/HKKtHdg/The-history-of-Bangal.jpg",
+      "review": "5",
+      "category": "Thriller",
+      "price":200
+    },
+    {
+      "id":22,
+      "name": "The Silent patient",
+      "author": "alex michaelides",
+      "img": "https://i.ibb.co/YXXGLDh/The-Silent-patient.webp",
+      "review": "3",
+      "category": "Thriller",
+      "price":300
+    },
+    { 
+      "id":23,
+      "name": "the sound and the fury ",
+      "author": "william fauikner",
+      "img": "https://i.ibb.co/qRwT6Vd/The-Sound-And-The-Fury.jpg",
+      "review": "3",
+      "category": "Thriller",
+      "price":600
+    },
+    {
+      "id":24,
+      "name": "Those Days",
+      "author": "sunil gangopadhyay",
+      "img": "https://i.ibb.co/B2CQKFH/Those-Days.jpg",
+      "review": "5",
+      "category": "Thriller",
+      "price":700
+    }
+  ]
