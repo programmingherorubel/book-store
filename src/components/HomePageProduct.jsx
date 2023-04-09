@@ -40,10 +40,10 @@ const HomePageProduct = () => {
     let currentData = featchersProduct.slice(firstPostIndex,lastPostIndex)
     return (
         <div className='container mx-auto'>
-            <h3 className='text-3xl text-left'>Our Regular Books</h3>
+            <h3 className='text-3xl text-left animate__animated animate__backInUp animate__delay-2s'>Our Regular Books</h3>
             <div className='grid text-center lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 '>
                 {
-                    currentData.map(featcher => <div className=' mb-28 p-4 w-[300px] h-[300px]'>
+                    currentData.map(featcher => <div className='animate__animated animate__backInUp animate__delay-2s mb-28 p-4 w-[300px] h-[300px]'>
                     <img src={featcher.img} className='w-60 h-[250px]' alt="" />
                     <h3 className='text-2xl'>{featcher.name.charAt(0).toUpperCase()
                     + featcher.name.slice(1).slice(0,22)}</h3>

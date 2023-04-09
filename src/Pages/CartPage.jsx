@@ -46,7 +46,7 @@ const CartPage = () => {
         <>
           <div className='container m-[100px] mx-auto flex justify-center' >
             <table className="table-auto mx-auto">
-            <thead>
+            {products.length >0 ? <thead>
                 <tr>
                 <th className="px-4 py-2">img</th>
                 <th className="px-4 py-2">Title</th>
@@ -54,7 +54,7 @@ const CartPage = () => {
                 <th className="px-4 py-2">Price</th>
                 <th className="px-4 py-2">Delete</th>
                 </tr>
-            </thead>
+            </thead> : 'Cart Is Empty'}
             {
                 products.map(singleProduct => <tbody>
                     <tr>
@@ -75,6 +75,7 @@ const CartPage = () => {
             </table> 
             </div>  
             <div className='container w-[50%] my-[50px]  mx-auto text-center grid-cols-8'>
+                <hr />
                 <h3 className='text-xl text-right'> Total Product : {products.length}</h3>
                 <h3 className='text-xl text-right'> Total Quantity : {quantity}</h3>
                 <h3 className='text-2xl text-right'> Total Price : {TotalPrice}</h3>

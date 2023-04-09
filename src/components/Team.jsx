@@ -44,19 +44,19 @@ const Team = () => {
             </div>
             <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-12  '>
                 {
-                    teamObject.map(team => <div key={team.length} className='mt-12 text-center mx-auto'>
-                        <img src={team.img}  className='text-center w-[200px]'/>
+                    teamObject.map(team => <div key={team.length} className='animate__animated animate__backInUp animate__delay-2s mt-12 text-center mx-auto'>
+                        <img src={team.img}  className='animate__animated animate__backInUp animate__delay-2s text-center w-[200px]'/>
 
-                        <h4 className='text-gray-400 text-gl text-md font-normal text-center mt-3'>
+                        <h4 className='animate__animated animate__backInUp animate__delay-2s text-gray-400 text-gl text-md font-normal text-center mt-3'>
                             {team.title}
                         </h4>
-                        <h4 className='text-gray-400 text-xl text-md font-normal text-center mt-3'>
+                        <h4 className='animate__animated animate__backInUp animate__delay-2s text-gray-400 text-xl text-md font-normal text-center mt-3'>
                             {team.name}
                         </h4>
 
-                        <hp className='text-gray-400 text-sm text-md font-normal text-center mt-3'>
+                        <h4 className='text-gray-400 text-sm text-md font-normalanimate__animated animate__backInUp animate__delay-3s text-center mt-3'>
                             {team.description}
-                        </hp>
+                        </h4>
                     </div>)
                 }
             </div>

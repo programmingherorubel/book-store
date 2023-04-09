@@ -12,7 +12,7 @@ const Navbar = () => {
     
     
     return (
-        <div className='bg-zinc-200 z-50 navbar'>
+        <div className='bg-zinc-200 z-50 navbar '>
            <div className='container mx-auto px-6'>
                 <div className='flex items-center justify-between'>
                     <div>
@@ -26,7 +26,7 @@ const Navbar = () => {
                             <li><Link to='/books'>Books</Link></li>
                             <li><Link to='/about'>About</Link></li>
                             <li><Link to='/contact'>Contact</Link></li>
-                            <li className='relative'><Link to='/cart'><FontAwesomeIcon icon={faShoppingCart}/><p className='absolute top-0'>{products.length}</p></Link></li>
+                            {products.length ?  <li><Link to='/cart'><FontAwesomeIcon className='text-red-600' icon={faShoppingCart}/><p className=' top-0'></p></Link></li> : <li><Link to='/cart'><FontAwesomeIcon icon={faShoppingCart}/><p className=' top-0'></p></Link></li>}
                         </ul>
                         <ul className={active ? 'gap-8 z-z-50 z-50  bg-zinc-300  p-3 font-bold  mt-9 w-full text-center fixed left-0 justify-center active'  : ' z-50 gap-8 z-z-50 bg-zinc-300  p-3 font-bold  mt-9 w-full text-center fixed left-0 justify-center menuactive' }>
                             <li className='px-4 pt-5 pb-2'><Link to='/'>Home</Link></li>

@@ -7,15 +7,15 @@ const Contact = () => {
     return (
         <>
         <div className='container mx-auto'>
-            <h1 className='text-3xl text-stone-800 mt-8 mb-8 font-bold text-center'>Contact Us</h1> <hr />  
+            <h1 className='text-3xl text-stone-800 mt-8 mb-8 font-bold text-center animate__animated animate__backInUp animate__delay-1s'>Contact Us</h1> <hr />  
             <div className='mt-6 grid grid-cols-1 md:grid-cols-12 justify-center'>
-                <div className='md:col-span-6 sm:col-span-12 grid-cols-1'>
+                <div className='md:col-span-6 sm:col-span-12 grid-cols-1 animate__animated animate__backInUp animate__delay-2s'>
                     <h3 className='text-2xl mt-5 text-slate-800 font-bold text-center'>Getting in touch  is eassy</h3>
                     <h3 className='text-sm mt-5 text-slate-800 font-bold text-center underline underline-offset-4'>find us heare </h3>
 
                     <h3 className='text-sm mt-5 text-slate-800 font-bold text-center underline underline-offset-4'>contact@helloworld.com </h3>
 
-                    <ul className='flex justify-center mt-10'>
+                    <ul className='animate__animated animate__backInUp animate__delay-3s flex justify-center mt-10'>
                         <li className='px-2 font-bold text-[20px] text-zinc-700'> <Link to='#'> <i className="fa-brands fa-facebook"></i></Link></li>
                         <li className='px-2 font-bold text-[20px] text-zinc-700'> <Link to='#'> <i className="fa-brands fa-twitter"></i></Link></li>
                         <li className='px-2 font-bold text-[20px] text-zinc-700'> <Link to='#'> <i className="fa-brands fa-instagram"></i></Link></li>
@@ -23,7 +23,7 @@ const Contact = () => {
                     </ul>
 
                 </div>
-                <div className='md:col-span-6 mt=10 sm:col-span-12 grid-cols-1'>
+                <div className='md:col-span-6 mt=10 sm:col-span-12 grid-cols-1 animate__animated animate__backInUp animate__delay-2s'>
                     <form action="#">
                         <div>
                             <input className="shadow appearance-none border rounded w-full py-2 mt-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Input Your Name" />

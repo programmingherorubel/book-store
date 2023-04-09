@@ -82,7 +82,7 @@ const NewBooksCollection = () => {
     
     return (
         <div className='container mx-auto py-10 pt-10'>
-            <h2 className='text-4xl  font-bold underline-offset-1 '>New Arrivals</h2> 
+            <h2 className='text-4xl  font-bold underline-offset-1 animate__animated animate__backInUp animate__delay-2s;'>New Arrivals</h2> 
             <Slider {...settings}>
                 {
                     productss.map(singleBook => {

@@ -25,7 +25,7 @@ const Card = ({singleBook}) => {
    }
     return (
         <>
-        <div className=' mb-28 p-4 w-[300px] h-[300px]'>
+        <div className='animate__animated animate__backInUp animate__delay-2s mb-28 p-4 w-[300px] h-[300px]'>
         <img src={singleBook.img} className='w-60 h-[250px]' alt="" />
         <h3 className='text-xl text-center'>{singleBook.name}</h3>
         <h2 className='text-lg'>{singleBook.author}</h2>
