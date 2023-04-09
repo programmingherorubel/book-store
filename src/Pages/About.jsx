@@ -24,7 +24,7 @@ const About = () => {
                     </p>
                     <div className='mt-4'><button className='animate__animated animate__backInUp animate__delay-2s bg-gradient-to-r bg-transparent border-2  px-2 py-1 hover:bg-white transition-all text-black font-medium rounded'>Join With Our Team</button></div>
                 </div>
-                <div className='mt-10 md:col-span-8 sm:col-span-6'>
+                <div className='mt-10 md:col-span-8 sm:col-span-6 col-span-12'>
                     <div className='grid gap-5 lg:grid-cols-4 md:grid-cols-2 '>
                        <img className='animate__animated animate__backInUp animate__delay-2s' src={author1} alt="" />
                        <img className='animate__animated animate__backInUp animate__delay-2s' src={author2} alt="" />

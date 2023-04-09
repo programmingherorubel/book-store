@@ -51,7 +51,7 @@ const Books = () => {
                     </div>
                     {/* part Two  */}
                     <div className='md:col-span-9 grid-cols-1'>
-                        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                        <div className='grid sm:grid-cols-1 md:grid-cols-2 mx-auto text-center lg:grid-cols-3'>
                             {
                                 currentData.map(singleBook => <Card singleBook={singleBook} key={singleBook.length}></Card>)
                             }
