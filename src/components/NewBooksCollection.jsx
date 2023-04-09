@@ -12,6 +12,16 @@ const NewBooksCollection = () => {
 
       const addToCart = (data)=>{
         dispatch(addProduct(data))
+        toast.success('book added successfull', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
       }
       
           

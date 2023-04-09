@@ -4,6 +4,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {incrementQuantity ,decrementQuantity, deleteProduct } from '../featchers/cart/cartSlice'
 import Footer from '../components/Footer';
+import { toast } from 'react-toastify';
 
 
 const CartPage = () => {
@@ -20,6 +21,16 @@ const CartPage = () => {
 
     const deleteProducts = (id)=>{
         dispatch(deleteProduct(id))
+        toast.success('book Delete Successfull', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
     }
     
     return (

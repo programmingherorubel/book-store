@@ -15,32 +15,19 @@ const HomePageProduct = () => {
     
       
     const addToCart = (data)=>{
-        const info = products?.find(matchProduct => matchProduct.id === data.id)
-        if(!info){
-            dispatch(addProduct(data))
-            toast.success('book added to cart successfully', {
-                position: "top-center",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "colored",
-                });
-        }else{
-            toast.error('This Book already added Check your shoping cart', {
-                position: "top-center",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "colored",
-                });
-        }
-   }
+        dispatch(addProduct(data))
+        toast.success('book added successfull', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
+      }
+      
 
     useEffect(()=>{
         fetch('books.json')
