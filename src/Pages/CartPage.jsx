@@ -33,10 +33,19 @@ const CartPage = () => {
             });
     }
     
+    let TotalPrice = 0
+    let quantity = 0
+    for(let product of products){
+        TotalPrice += product.price
+        quantity += product.quantity
+    }
+
+   
+    
     return (
         <>
-          <div className='container mx-auto flex justify-center' >
-        <table className="table-auto">
+          <div className='container m-[100px] mx-auto flex justify-center' >
+            <table className="table-auto mx-auto">
             <thead>
                 <tr>
                 <th className="px-4 py-2">img</th>
@@ -63,8 +72,13 @@ const CartPage = () => {
                     
                 </tbody>)
             }
-            </table>
-    </div>  
+            </table> 
+            </div>  
+            <div className='container w-[50%] my-[50px]  mx-auto text-center grid-cols-8'>
+                <h3 className='text-xl text-right'> Total Product : {products.length}</h3>
+                <h3 className='text-xl text-right'> Total Quantity : {quantity}</h3>
+                <h3 className='text-2xl text-right'> Total Price : {TotalPrice}</h3>
+            </div>
     <Footer/>
     </>         
     );
