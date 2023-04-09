@@ -23,7 +23,6 @@ const NewBooksCollection = () => {
       autoplaySpeed: 2000,
       arrows:false,
       dots: false,
-      infinite: false,
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 4,
